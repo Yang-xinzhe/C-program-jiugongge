@@ -2,7 +2,8 @@
 <img width="683" alt="image" src="https://github.com/Yang-xinzhe/C-program-jiugongge/assets/77601178/250b5486-05ab-40e9-8616-6449c45385ce">
 
 使用字符串数组将文件夹下的图片文件名信息保存  
-使用指针数组保存bmp图片信息 并将图片读取到数组中
+使用指针数组保存bmp图片信息 并将图片读取到数组中  
+同时将正确位置的图片所对应的数组下标索引保存进另一个数组 在判断是否完成拼图时会用做判断  
 
 # 位置显示  
 <img width="387" alt="image" src="https://github.com/Yang-xinzhe/C-program-jiugongge/assets/77601178/1187fbae-36dd-44ae-8d7a-65cde061723c">
@@ -11,7 +12,7 @@
 ```C
 void show_bmp(int x0, int y0, tag_bmp *p)  
 ```
-由于bmp_show函数中的前两个参数是代表的打印的x轴位置和y轴位置 这里我选择人工把图片位置排好  
+由于bmp_show函数中的前两个参数是代表的打印的x轴位置和y轴位置 我选择人工把图片位置排好  
 将想要显示的九宫格效果按照在屏幕上打印的位置写进数组（当然我知道这样显得很笨）  
 使用循环将图片打印在屏幕上
 # 一级标题  
