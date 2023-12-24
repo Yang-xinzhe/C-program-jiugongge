@@ -8,7 +8,7 @@
 <img width="387" alt="image" src="https://github.com/Yang-xinzhe/C-program-jiugongge/assets/77601178/1187fbae-36dd-44ae-8d7a-65cde061723c">
 
 位置的显示与提供的bmp_show函数有关 bmp_show()在show.c文件中定义：  
-void show_bmp(int x0, int y0, tag_bmp *p)  
+[] void show_bmp(int x0, int y0, tag_bmp *p)  
 
 
 # 一级标题  
