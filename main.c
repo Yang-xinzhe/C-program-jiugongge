@@ -51,8 +51,6 @@ int main(int argc, const char *argv[])
 		if (bmpArray[i] == NULL)
 		{
 			printf("Failed to load BMP file: %s\n", fileNames[i]);
-			// 在实际应用中可能需要处理加载失败的情况
-			// 例如，退出程序或者使用默认图像
 		}
 		correctOrderArray[i] = bmpArray[i];
 	}
